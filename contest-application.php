@@ -265,6 +265,7 @@
                         </form>
                     </div>
                     <hr class="m-85">
+                    <h4>Results: <?= count($freelancersContestFiltered) ?></h4>
                     <?php if (count($freelancersContestFiltered) > 0): ?>
                         <div class="flex justify-between mt-10">
                             <?php foreach ($freelancersContestFiltered as $freelancerContest): ?>
