@@ -9,6 +9,7 @@ body {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 .sidebar {
     flex-basis: 18%;
@@ -29,6 +30,7 @@ body {
     padding: 18px;
     text-decoration: none;
     border-bottom: 1px solid #eadeff;
+    color: darkmagenta;
 }
 
 .sidebar-link:hover {
@@ -54,6 +56,18 @@ body {
 
 .strong {
     font-weight: 700;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h-24 {
+    height: 24px;
+}
+
+.w-24 {
+    width: 24px;
 }
 
 p {
@@ -84,4 +98,24 @@ p {
 
 .ml-10 {
     margin-left: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.m-40-0 {
+    margin: 40px 0;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.m-85 {
+    margin: 85px 0;
 }

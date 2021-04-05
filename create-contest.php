@@ -44,11 +44,11 @@
                 </figure> -->
             </header>
                 <div>
-                    <a href="./contest-application.php" class="sidebar-link flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="nav-icon">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    <a href="./contest-application.php" class="sidebar-link flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 nav-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                         </svg>
-                        <span>Show all contests</span>
+                        <span>Back</span>
                     </a>
                 </div>
         </div>
